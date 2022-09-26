@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey form</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <!-- <h1>Hello, World!</h1> -->
+    <!-- <p>Hello, am excited to be in the Microverse</p> -->
+    <h1 id="title">Servey form</h1>
+    <p id="description">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, deserunt!
+    </p>
+    <form action="" id="survey-form">
+      <div>
+        <label for="" id="name-label">NAME</label>
+        <input type="text" id="name" required placeholder="Name" />
+      </div>
+      <div>
+        <label for="" id="email-label">EMAIL</label>
+        <input type="email" id="email" required placeholder="Email" />
+      </div>
+      <div>
+        <label for="" id="number-label">NUMBER</label>
+        <input type="number" id="number" placeholder="Number" required min="5" max="40" />
+      </div>
+      <select name="" id="dropdown">
+        <option value="">option 1</option>
+        <option value="">option 2</option>
+      </select>
+      <div>
+        <input type="radio" value="button 1" name="button_1">button 1</input>
+        <input type="radio" value="button 2" name="button_1">button 2</input>
+      </div>
+      <div>
+        <input type="checkbox" value="checkbox 1" name="checkbox_1">checkbox 1</input>
+        <input type="checkbox" value="checkbox 2" name="checkbox_1">checkbox 2</input>
+        <input type="checkbox" value="checkbox 3" name="checkbox_1">checkbox 3</input>
+        <input type="checkbox" value="checkbox 4" name="checkbox_1">checkbox 4</input>
+        <input type="checkbox" value="checkbox 5" name="checkbox_1">checkbox 5</input>
+        <input type="checkbox" value="checkbox 6" name="checkbox_1">checkbox 6</input>
+      </div>
+      <textarea name="comments" id="comments" cols="30" rows="10">Comments</textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <script src="js/index.js"></script>
+  </body>
+
+</html>
